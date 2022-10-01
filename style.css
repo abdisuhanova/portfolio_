@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+body{
+    margin-left: 5rem;
+    margin-top: 7rem;
+    margin-right: 5rem;
+    margin-bottom: 7rem;
+    background: #33CCCC; /* Fallback */
+    animation: color 9s infinite linear;
+    text-align: center;
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 2.5rem;
+    line-height: 48px;
+    text-align: center;
+    vertical-align: top;
+    color:rgb(237, 222, 222);
+}
+
+h1 span{
+    display: block;
+    font-size: 1.4rem;
+    position: relative;
+}
+.intro {
+    size: 12px;
+    line-height: 27px;
+    text-align: left;
+    font-style: normal;
+    vertical-align: top;
+}
+.intro p{
+
+}
+ img {
+    width: 80%;
+    border-radius: 100%;
+    align-items: center;
+    margin-top: 2.5rem;
+    margin-bottom: 4rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+ }
+
+.skills{
+    align-self: left;
+    color:rgb(106, 98, 88);
+    background: rgba(205, 201, 192, 0.2);
+    padding: 20px;
+    border-radius: 1.8rem;
+    size: 18px;
+}
+.skills span{
+    color: azure;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-right:0.5% ;
+    padding-left: 0.7%;
+}
+
+.java{
+    background: rgba(8, 8, 8, 0.3);
+    border-radius: 50%;
+    padding-right:0.5% ;
+    padding-left: 0.7%;   
+}
+
+input[button]{
+    color: darkgreen;
+    fill: dimgrey;
+    background-color: aqua;
+}
+@keyframes color {
+    0%   { background: #F8B195; }
+    10%  { background: #F67280; }
+    30%  { background: #C06C84; }
+    50%  { background: #949494; }
+    70%  { background: #C06C84; }
+    90%  { background: #F67280; }
+    100%   { background: #F8B195; }
+ 
+  }
+  .connect-right{
+    padding-top: 5rem;
+    text-align: left;
+    padding-bottom: 4rem;
+  }
+  .connect-left{
+    text-align: left;
+    
+  }
+  .connect-left input{
+    border-radius: 1rem;
+    padding: 0.5rem;
+  }
+  
+  .connect-left label::after{
+    content: "\a";
+    white-space: pre;
+  }
+  .connect-left name::after{
+    content: "\a";
+    white-space: pre;
+  }
